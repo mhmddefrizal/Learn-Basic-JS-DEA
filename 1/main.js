@@ -1,4 +1,4 @@
-// Beta Code
+// MATERI Dasar JS | Variabel
 
 // alert("hey");
 // prompt("Masukkan usia anda");
@@ -28,24 +28,53 @@
 //     break;
 // }
 
-let nama = "defrizal"; //String
-let usia = 18; //Integer/number
-let tinggiBadan = 178.5; //Tipe double atau float
-let beratBadan;
-let hobi = 1;
+// let nama = "defrizal"; //String
+// let usia = 18; //Integer/number
+// let tinggiBadan = 178.5; //Tipe double atau float
+// let beratBadan;
+// let hobi = 1;
 
-beratBadan = 70;
+// beratBadan = 70;
 
-if (hobi == null) {
-  hobi = "nothing";
-} else {
-  hobi = "have hobby";
-}
+// if (hobi == null) {
+//   hobi = "nothing";
+// } else {
+//   hobi = "have hobby";
+// }
 
-let saldoAwal = 50000;
-let saldoTambahan = 80000;
-const saldoAkhir = saldoAwal + saldoTambahan;
+// let saldoAwal = 50000;
+// let saldoTambahan = 80000;
+// const hutang = 30000;
+// const saldoAkhir = saldoAwal + saldoTambahan - hutang;
 
-alert(`nama saya ${nama} usia saya itu ${usia} tinggi badan saya adalah ${tinggiBadan}cm berat badan saya ${beratBadan}kg dan hobi saya adalah ${hobi}`);
+// const x = 9;
+// const y = 2;
+// const z = x / y;
 
-alert(`saldo awal saya sebesar Rp.${saldoAwal} & dan saldo tambahan Rp.${saldoTambahan} jadi total saldo saya berjumlah Rp.${saldoAkhir}`);
+// alert(`hasil pembagian dari ${x} dan ${y} adalah ${z}`);
+
+// alert(`nama saya ${nama} usia saya itu ${usia} tinggi badan saya adalah ${tinggiBadan}cm berat badan saya ${beratBadan}kg dan hobi saya adalah ${hobi}`);
+
+// alert(`saldo awal saya sebesar Rp.${saldoAwal} & dan saldo tambahan Rp.${saldoTambahan} jadi total saldo saya berjumlah Rp.${saldoAkhir}`);
+
+// AKHIR DASAR JS VARIABEL
+
+// MATERI JS DASAR ARRAY VARIABEL
+let namaGuru = ["Toni", "Yuda", "Edward"];
+
+namaGuru.push("Dea", "Fikri");
+namaGuru.shift();
+namaGuru.pop();
+
+alert(namaGuru);
+
+// let namaGuru = [];
+// namaGuru[0] = "Dea";
+// namaGuru[1] = "Fikri";
+
+// namaGuru.shift();
+
+// alert(namaGuru);
+// Akhir JS DASAR ARRAY VARIABEL
+
+// MATERI PERULANGAN [LOOPING]
