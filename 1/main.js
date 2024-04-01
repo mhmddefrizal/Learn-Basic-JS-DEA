@@ -60,13 +60,13 @@
 // AKHIR DASAR JS VARIABEL
 
 // MATERI JS DASAR ARRAY VARIABEL
-let namaGuru = ["Toni", "Yuda", "Edward"];
+// let namaGuru = ["Toni", "Yuda", "Edward"];
 
-namaGuru.push("Dea", "Fikri");
-namaGuru.shift();
-namaGuru.pop();
+// namaGuru.push("Dea", "Fikri");
+// namaGuru.shift();
+// namaGuru.pop();
 
-alert(namaGuru);
+// alert(namaGuru);
 
 // let namaGuru = [];
 // namaGuru[0] = "Dea";
@@ -78,3 +78,13 @@ alert(namaGuru);
 // Akhir JS DASAR ARRAY VARIABEL
 
 // MATERI PERULANGAN [LOOPING]
+// For Loop
+// 3 Statement
+const namaGuru = ["dea", "fikri", "retno", "bunga"];
+
+for (let i = 0; i < namaGuru.length; i++) {
+  // i1 = 0
+  //   i2 = 1
+  //   dst
+  console.log(namaGuru[i]);
+}
