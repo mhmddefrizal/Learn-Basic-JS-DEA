@@ -80,11 +80,24 @@
 // MATERI PERULANGAN [LOOPING]
 // For Loop
 // 3 Statement
-const namaGuru = ["dea", "fikri", "retno", "bunga"];
+// const namaGuru = ["dea", "fikri", "retno", "bunga"];
 
-for (let i = 0; i < namaGuru.length; i++) {
-  // i1 = 0
-  //   i2 = 1
-  //   dst
-  console.log(namaGuru[i]);
-}
+// for (let i = 0; i < namaGuru.length; i++) {
+//   // i1 = 0
+//   //   i2 = 1
+//   //   dst
+//   console.log(namaGuru[i]);
+// }
+
+let i = 0;
+
+// while (i < 10) {
+//   i++;
+//   console.log("Defrizal");
+// }
+
+do {
+  i++;
+  console.log("Defrizal");
+} while (i < 10);
+// AKhir Materi Perulangan
